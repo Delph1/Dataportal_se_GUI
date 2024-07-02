@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Municipality Data Viewer</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="/static/styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Municipality Data Viewer</h1>
+            <h2>Kostnad för kommunal anpassad grundskola, kr/elev</h2>
+            <div class="selection-container">
+                <select id="municipalitySelect" style="width: 100%;">
+                    <!-- Options will be populated by Select2 -->
+                </select>
+                <button id="updateButton">Update Graph</button>
+            </div>
+            <div id="dataContainer">
+                <div class="chart-container">
+                    <canvas id="dataChart"></canvas>
+                </div>
+                <div id="tableContainer"></div>
+            </div>
+            <h1>Kolada Data Fetcher</h1>
+            <button id="fetchButton">Fetch Kolada Municipallity Data</button>
+            <div id="result"></div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+        <script src="/static/script.js"></script>
+    </body>
+</html>
