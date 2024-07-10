@@ -1,0 +1,916 @@
+2024-07-08 14:17:46 INFO: Fetching KPIs from the database
+2024-07-08 14:17:47 INFO: Retrieved 6129 KPIs
+2024-07-08 14:22:12 INFO: Fetching KPIs from the database
+2024-07-08 14:22:12 INFO: Retrieved 6129 KPIs
+2024-07-08 14:29:25 INFO: Fetching KPIs from the database
+2024-07-08 14:29:26 INFO: Retrieved 6129 KPIs
+2024-07-08 14:30:27 INFO: Fetching KPIs from the database
+2024-07-08 14:30:27 INFO: Retrieved 6129 KPIs
+2024-07-08 14:32:48 INFO: Fetching KPIs from the database
+2024-07-08 14:32:48 INFO: Retrieved 6129 KPIs
+2024-07-08 14:36:22 INFO: Fetching KPIs from the database
+2024-07-08 14:36:22 INFO: Retrieved 6129 KPIs
+2024-07-09 11:57:27 INFO: Fetching KPIs from the database
+2024-07-09 11:57:27 INFO: Retrieved 6129 KPIs
+2024-07-09 11:58:41 INFO: Fetching KPIs from the database
+2024-07-09 11:58:41 INFO: Retrieved 6129 KPIs
+2024-07-09 12:03:59 INFO: Fetching KPIs from the database
+2024-07-09 12:04:00 INFO: Retrieved 6129 KPIs
+2024-07-09 12:26:08 INFO: Fetching KPIs from the database
+2024-07-09 12:26:08 INFO: Retrieved 6129 KPIs
+2024-07-09 12:26:41 INFO: Fetching KPIs from the database
+2024-07-09 12:26:41 INFO: Retrieved 6129 KPIs
+2024-07-09 12:31:05 INFO: Fetching KPIs from the database
+2024-07-09 12:31:05 INFO: Retrieved 6129 KPIs
+2024-07-09 12:33:27 INFO: Fetching KPIs from the database
+2024-07-09 12:33:28 INFO: Retrieved 6129 KPIs
+2024-07-09 12:36:27 INFO: Fetching KPIs from the database
+2024-07-09 12:36:28 INFO: Retrieved 6129 KPIs
+2024-07-09 12:41:12 INFO: Fetching KPIs from the database
+2024-07-09 12:41:13 INFO: Retrieved 6129 KPIs
+2024-07-09 12:44:45 INFO: Fetching KPIs from the database
+2024-07-09 12:44:45 INFO: Retrieved 6129 KPIs
+2024-07-09 12:50:20 INFO: Fetching KPIs from the database
+2024-07-09 12:50:20 INFO: Retrieved 6129 KPIs
+2024-07-09 12:57:01 INFO: Fetching KPIs from the database
+2024-07-09 12:57:01 INFO: Retrieved 6129 KPIs
+2024-07-09 12:59:03 INFO: Fetching KPIs from the database
+2024-07-09 12:59:03 INFO: Retrieved 6129 KPIs
+2024-07-09 12:59:20 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/1499/municipality/N15004 "HTTP/1.1 200 OK"
+2024-07-09 13:00:56 INFO: Fetching KPIs from the database
+2024-07-09 13:00:56 INFO: Retrieved 6129 KPIs
+2024-07-09 13:01:13 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/1984/municipality/N15004 "HTTP/1.1 200 OK"
+2024-07-09 13:01:43 INFO: Fetching KPIs from the database
+2024-07-09 13:01:43 INFO: Retrieved 6129 KPIs
+2024-07-09 13:01:59 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/1984/municipality/N15004 "HTTP/1.1 200 OK"
+2024-07-09 13:02:41 INFO: Fetching KPIs from the database
+2024-07-09 13:02:41 INFO: Retrieved 6129 KPIs
+2024-07-09 13:02:51 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/2521/municipality/N00003 "HTTP/1.1 200 OK"
+2024-07-09 13:03:12 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/0018/municipality/N00003 "HTTP/1.1 200 OK"
+2024-07-09 13:03:48 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/1880/municipality/N15004 "HTTP/1.1 200 OK"
+2024-07-09 13:05:26 INFO: Fetching KPIs from the database
+2024-07-09 13:05:26 INFO: Retrieved 6129 KPIs
+2024-07-09 13:05:35 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/1880/municipality/N00003 "HTTP/1.1 200 OK"
+2024-07-09 13:06:51 INFO: Fetching KPIs from the database
+2024-07-09 13:06:51 INFO: Retrieved 6129 KPIs
+2024-07-09 13:07:00 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1880 "HTTP/1.1 200 OK"
+2024-07-09 13:07:59 INFO: Fetching KPIs from the database
+2024-07-09 13:07:59 INFO: Retrieved 6129 KPIs
+2024-07-09 13:08:04 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 13:09:01 INFO: Fetching KPIs from the database
+2024-07-09 13:09:01 INFO: Retrieved 6129 KPIs
+2024-07-09 13:09:08 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1960 "HTTP/1.1 200 OK"
+2024-07-09 13:13:35 INFO: Fetching KPIs from the database
+2024-07-09 13:13:35 INFO: Retrieved 6129 KPIs
+2024-07-09 13:13:42 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1960 "HTTP/1.1 200 OK"
+2024-07-09 13:25:33 INFO: Fetching KPIs from the database
+2024-07-09 13:25:33 INFO: Retrieved 6129 KPIs
+2024-07-09 13:25:39 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1960 "HTTP/1.1 200 OK"
+2024-07-09 13:26:20 INFO: Fetching KPIs from the database
+2024-07-09 13:26:20 INFO: Retrieved 6129 KPIs
+2024-07-09 13:26:26 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1960 "HTTP/1.1 200 OK"
+2024-07-09 13:28:00 INFO: Fetching KPIs from the database
+2024-07-09 13:28:00 INFO: Retrieved 6129 KPIs
+2024-07-09 13:28:07 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1960 "HTTP/1.1 200 OK"
+2024-07-09 13:29:22 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1960 "HTTP/1.1 200 OK"
+2024-07-09 13:29:22 ERROR: KPI not found: N00003
+2024-07-09 13:29:22 ERROR: Error processing data for municipality 1960
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 87, in read_structured_municipality_data
+    raise HTTPException(status_code=404, detail="KPI not found")
+fastapi.exceptions.HTTPException: 404: KPI not found
+2024-07-09 13:29:35 INFO: Fetching KPIs from the database
+2024-07-09 13:29:35 INFO: Retrieved 6129 KPIs
+2024-07-09 13:29:45 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 13:29:45 ERROR: KPI not found: N00003
+2024-07-09 13:29:45 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 87, in read_structured_municipality_data
+    raise HTTPException(status_code=404, detail="KPI not found")
+fastapi.exceptions.HTTPException: 404: KPI not found
+2024-07-09 13:29:53 ERROR: KPI not found: N00003
+2024-07-09 13:29:53 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 87, in read_structured_municipality_data
+    raise HTTPException(status_code=404, detail="KPI not found")
+fastapi.exceptions.HTTPException: 404: KPI not found
+2024-07-09 13:32:37 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 13:32:37 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 99, in read_structured_municipality_data
+    year=item.year,
+         ^^^^^^^^^
+AttributeError: 'MunicipalityData' object has no attribute 'year'
+2024-07-09 13:32:44 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 99, in read_structured_municipality_data
+    year=item.year,
+         ^^^^^^^^^
+AttributeError: 'MunicipalityData' object has no attribute 'year'
+2024-07-09 13:33:52 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 13:33:52 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 99, in read_structured_municipality_data
+    year=item.year,
+         ^^^^^^^^^
+AttributeError: 'MunicipalityData' object has no attribute 'year'
+2024-07-09 13:34:48 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 13:34:48 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 100, in read_structured_municipality_data
+    year=item.year,
+         ^^^^^^^^^
+AttributeError: 'MunicipalityData' object has no attribute 'year'
+2024-07-09 13:35:51 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 13:35:51 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 99, in read_structured_municipality_data
+    year=item.year,
+         ^^^^^^^^^
+AttributeError: 'MunicipalityData' object has no attribute 'year'
+2024-07-09 13:36:00 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 99, in read_structured_municipality_data
+    year=item.year,
+         ^^^^^^^^^
+AttributeError: 'MunicipalityData' object has no attribute 'year'
+2024-07-09 13:36:50 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 13:36:50 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 98, in read_structured_municipality_data
+    kpi_values.append(schemas.KpiValue(
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\fastapi_env\Lib\site-packages\pydantic\main.py", line 192, in __init__
+    self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 4 validation errors for KpiValue
+kpi
+  Field required [type=missing, input_value={'metadata': '{"count": 2...ue": 46895.943437}]}]}'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+year
+  Field required [type=missing, input_value={'metadata': '{"count": 2...ue": 46895.943437}]}]}'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+value
+  Field required [type=missing, input_value={'metadata': '{"count": 2...ue": 46895.943437}]}]}'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+metadata
+  Input should be a valid dictionary [type=dict_type, input_value='{"count": 26, "values": ...lue": 46895.943437}]}]}', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/dict_type
+2024-07-09 13:37:01 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 98, in read_structured_municipality_data
+    kpi_values.append(schemas.KpiValue(
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\fastapi_env\Lib\site-packages\pydantic\main.py", line 192, in __init__
+    self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 4 validation errors for KpiValue
+kpi
+  Field required [type=missing, input_value={'metadata': '{"count": 2...ue": 46895.943437}]}]}'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+year
+  Field required [type=missing, input_value={'metadata': '{"count": 2...ue": 46895.943437}]}]}'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+value
+  Field required [type=missing, input_value={'metadata': '{"count": 2...ue": 46895.943437}]}]}'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+metadata
+  Input should be a valid dictionary [type=dict_type, input_value='{"count": 26, "values": ...lue": 46895.943437}]}]}', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/dict_type
+2024-07-09 13:47:01 INFO: Fetching KPIs from the database
+2024-07-09 13:47:02 INFO: Retrieved 6129 KPIs
+2024-07-09 13:47:07 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 13:47:07 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 98, in read_structured_municipality_data
+    kpi_values.append(schemas.KpiValue(
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\fastapi_env\Lib\site-packages\pydantic\main.py", line 192, in __init__
+    self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 4 validation errors for KpiValue
+kpi
+  Field required [type=missing, input_value={'data': '{"count": 26, "...ue": 46895.943437}]}]}'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+year
+  Field required [type=missing, input_value={'data': '{"count": 26, "...ue": 46895.943437}]}]}'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+value
+  Field required [type=missing, input_value={'data': '{"count": 26, "...ue": 46895.943437}]}]}'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+metadata
+  Field required [type=missing, input_value={'data': '{"count": 26, "...ue": 46895.943437}]}]}'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+2024-07-09 13:47:21 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 98, in read_structured_municipality_data
+    kpi_values.append(schemas.KpiValue(
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\fastapi_env\Lib\site-packages\pydantic\main.py", line 192, in __init__
+    self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 4 validation errors for KpiValue
+kpi
+  Field required [type=missing, input_value={'data': '{"count": 26, "...ue": 46895.943437}]}]}'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+year
+  Field required [type=missing, input_value={'data': '{"count": 26, "...ue": 46895.943437}]}]}'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+value
+  Field required [type=missing, input_value={'data': '{"count": 26, "...ue": 46895.943437}]}]}'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+metadata
+  Field required [type=missing, input_value={'data': '{"count": 26, "...ue": 46895.943437}]}]}'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+2024-07-09 13:47:46 INFO: Fetching KPIs from the database
+2024-07-09 13:47:47 INFO: Retrieved 6129 KPIs
+2024-07-09 13:47:53 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 13:47:53 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 99, in read_structured_municipality_data
+    data=item.values
+         ^^^^^^^^^^^
+AttributeError: 'MunicipalityData' object has no attribute 'values'
+2024-07-09 13:47:59 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 99, in read_structured_municipality_data
+    data=item.values
+         ^^^^^^^^^^^
+AttributeError: 'MunicipalityData' object has no attribute 'values'
+2024-07-09 13:48:30 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 13:48:30 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 99, in read_structured_municipality_data
+    data=item.value
+         ^^^^^^^^^^
+AttributeError: 'MunicipalityData' object has no attribute 'value'
+2024-07-09 13:48:36 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 99, in read_structured_municipality_data
+    data=item.value
+         ^^^^^^^^^^
+AttributeError: 'MunicipalityData' object has no attribute 'value'
+2024-07-09 13:54:57 INFO: Fetching KPIs from the database
+2024-07-09 13:54:57 INFO: Retrieved 6129 KPIs
+2024-07-09 13:55:03 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 13:55:03 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 98, in read_structured_municipality_data
+    kpi_values.append(schemas.KpiValue(
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\fastapi_env\Lib\site-packages\pydantic\main.py", line 192, in __init__
+    self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for KpiValue
+data
+  Input should be a valid dictionary [type=dict_type, input_value='{"count": 26, "values": ...lue": 46895.943437}]}]}', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/dict_type
+2024-07-09 13:55:13 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 98, in read_structured_municipality_data
+    kpi_values.append(schemas.KpiValue(
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\fastapi_env\Lib\site-packages\pydantic\main.py", line 192, in __init__
+    self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for KpiValue
+data
+  Input should be a valid dictionary [type=dict_type, input_value='{"count": 26, "values": ...lue": 46895.943437}]}]}', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.8/v/dict_type
+2024-07-09 14:17:05 INFO: Fetching KPIs from the database
+2024-07-09 14:17:05 INFO: Retrieved 6129 KPIs
+2024-07-09 14:17:16 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:17:16 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 97, in read_structured_municipality_data
+    data = json.dumps(data)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type MunicipalityData is not JSON serializable
+2024-07-09 14:17:21 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 97, in read_structured_municipality_data
+    data = json.dumps(data)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type MunicipalityData is not JSON serializable
+2024-07-09 14:17:56 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:17:56 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 97, in read_structured_municipality_data
+    data = json.dumps(data)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type MunicipalityData is not JSON serializable
+2024-07-09 14:18:17 INFO: Fetching KPIs from the database
+2024-07-09 14:18:17 INFO: Retrieved 6129 KPIs
+2024-07-09 14:18:22 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:18:22 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 97, in read_structured_municipality_data
+    data = json.dumps(data)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type MunicipalityData is not JSON serializable
+2024-07-09 14:19:26 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:19:26 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 97, in read_structured_municipality_data
+    data = json.dumps(data)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type MunicipalityData is not JSON serializable
+2024-07-09 14:21:14 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:21:14 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 97, in read_structured_municipality_data
+    data = json.dump(data)
+           ^^^^^^^^^^^^^^^
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-07-09 14:31:22 INFO: Fetching KPIs from the database
+2024-07-09 14:31:22 INFO: Retrieved 6129 KPIs
+2024-07-09 14:31:30 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:31:30 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 94, in read_structured_municipality_data
+    data = json.loads(municipality_data.data)
+                      ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'data'
+2024-07-09 14:31:39 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 94, in read_structured_municipality_data
+    data = json.loads(municipality_data.data)
+                      ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'data'
+2024-07-09 14:32:25 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:32:25 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 94, in read_structured_municipality_data
+    data = json.loads(municipality_data.data)
+                      ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'data'
+2024-07-09 14:33:03 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:33:03 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 94, in read_structured_municipality_data
+    data = json.loads(municipality_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+2024-07-09 14:34:22 INFO: Fetching KPIs from the database
+2024-07-09 14:34:22 INFO: Retrieved 6129 KPIs
+2024-07-09 14:34:28 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:34:28 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 94, in read_structured_municipality_data
+    data = json.loads(municipality_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+2024-07-09 14:36:12 INFO: Fetching KPIs from the database
+2024-07-09 14:36:12 INFO: Retrieved 6129 KPIs
+2024-07-09 14:36:17 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:36:18 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 94, in read_structured_municipality_data
+    data = json.loads(municipality_data.data)
+                      ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'data'
+2024-07-09 14:40:26 INFO: Fetching KPIs from the database
+2024-07-09 14:40:26 INFO: Retrieved 6129 KPIs
+2024-07-09 14:40:31 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:40:31 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 96, in read_structured_municipality_data
+    "value": data_dict["value"],
+             ~~~~~~~~~^^^^^^^^^
+KeyError: 'value'
+2024-07-09 14:40:36 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 96, in read_structured_municipality_data
+    "value": data_dict["value"],
+             ~~~~~~~~~^^^^^^^^^
+KeyError: 'value'
+2024-07-09 14:41:52 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:41:52 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 97, in read_structured_municipality_data
+    "value": data_dict["value"],
+             ~~~~~~~~~^^^^^^^^^
+KeyError: 'value'
+2024-07-09 14:43:38 INFO: Fetching KPIs from the database
+2024-07-09 14:43:38 INFO: Retrieved 6129 KPIs
+2024-07-09 14:43:45 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:43:45 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 97, in read_structured_municipality_data
+    "value": data_dict_value["value"],
+             ~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'value'
+2024-07-09 14:43:49 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 97, in read_structured_municipality_data
+    "value": data_dict_value["value"],
+             ~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'value'
+2024-07-09 14:44:50 INFO: Fetching KPIs from the database
+2024-07-09 14:44:50 INFO: Retrieved 6129 KPIs
+2024-07-09 14:44:56 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:44:56 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 98, in read_structured_municipality_data
+    "value": data_dict_value["value"],
+             ~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'value'
+2024-07-09 14:45:27 INFO: Fetching KPIs from the database
+2024-07-09 14:45:27 INFO: Retrieved 6129 KPIs
+2024-07-09 14:45:32 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:45:32 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 98, in read_structured_municipality_data
+    "value": data_dict_value["values"]["value"],
+             ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-07-09 14:45:36 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 98, in read_structured_municipality_data
+    "value": data_dict_value["values"]["value"],
+             ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-07-09 14:46:49 INFO: Fetching KPIs from the database
+2024-07-09 14:46:50 INFO: Retrieved 6129 KPIs
+2024-07-09 14:46:55 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:46:55 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 99, in read_structured_municipality_data
+    "value": subvalues["value"],
+             ~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-07-09 14:46:59 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 99, in read_structured_municipality_data
+    "value": subvalues["value"],
+             ~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-07-09 14:47:42 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:47:43 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 100, in read_structured_municipality_data
+    "value": subvalues["value"],
+             ~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-07-09 14:49:13 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:49:13 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 100, in read_structured_municipality_data
+    "value": subvalues["value"],
+             ~~~~~~~~~^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-07-09 14:53:47 INFO: Fetching KPIs from the database
+2024-07-09 14:53:48 INFO: Retrieved 6129 KPIs
+2024-07-09 14:53:52 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:53:52 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 97, in read_structured_municipality_data
+    subvalues = json.loads(data_dict_value["values"])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+2024-07-09 14:55:34 INFO: Fetching KPIs from the database
+2024-07-09 14:55:34 INFO: Retrieved 6129 KPIs
+2024-07-09 14:55:39 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:55:39 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 100, in read_structured_municipality_data
+    "value": subvalues["value"],
+             ~~~~~~~~~^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-07-09 14:57:30 INFO: Fetching KPIs from the database
+2024-07-09 14:57:30 INFO: Retrieved 6129 KPIs
+2024-07-09 14:57:36 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 14:57:36 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 100, in read_structured_municipality_data
+    "value": subvalues['value'],
+             ~~~~~~~~~^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-07-09 15:02:24 INFO: Fetching KPIs from the database
+2024-07-09 15:02:24 INFO: Retrieved 6129 KPIs
+2024-07-09 15:02:29 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 15:02:29 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 100, in read_structured_municipality_data
+    "value": subvalues[0]['value'],
+             ~~~~~~~~~~~~^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-07-09 15:03:16 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 15:03:16 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 100, in read_structured_municipality_data
+    "value": subvalues['value'],
+             ~~~~~~~~~^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-07-09 15:15:22 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 15:15:22 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 99, in read_structured_municipality_data
+    "value": subvalues['value'],
+             ~~~~~~~~~^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-07-09 15:15:35 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 15:15:35 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 100, in read_structured_municipality_data
+    "value": subvalues['value'],
+             ~~~~~~~~~^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-07-09 15:16:19 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 15:16:19 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 98, in read_structured_municipality_data
+    print(subvalues[1])
+          ~~~~~~~~~^^^
+IndexError: list index out of range
+2024-07-09 15:16:46 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 15:16:46 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 100, in read_structured_municipality_data
+    "value": subvalues['value'],
+             ~~~~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-07-09 15:19:02 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 15:19:02 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 100, in read_structured_municipality_data
+    "value": subvalues['value'],
+             ~~~~~~~~~^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-07-09 15:22:03 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 100, in read_structured_municipality_data
+    "value": subvalues['value'],
+             ~~~~~~~~~^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-07-09 15:50:21 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 15:50:37 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 15:51:13 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 15:54:04 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 15:54:26 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 15:58:41 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 16:04:59 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 16:04:59 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 100, in read_structured_municipality_data
+    "value": subvalues['value'],
+             ~~~~~~~~~^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-07-09 16:09:02 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 16:09:02 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 94, in read_structured_municipality_data
+    "data": municipality_data.data,
+            ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'data'
+2024-07-09 16:10:49 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 16:10:49 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 92, in read_structured_municipality_data
+    data_dict = json.loads(municipality_data)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+2024-07-09 16:11:53 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 16:11:53 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 92, in read_structured_municipality_data
+    data_dict = json.loads(municipality_data.data)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'data'
+2024-07-09 16:12:48 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 16:12:48 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 92, in read_structured_municipality_data
+    data_dict = json.dumps(municipality_data)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type MunicipalityData is not JSON serializable
+2024-07-09 16:14:29 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 16:14:29 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 94, in read_structured_municipality_data
+    "data": municipality_data.data
+            ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'data'
+2024-07-09 16:14:45 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 16:14:45 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 95, in read_structured_municipality_data
+    "data": municipality_data.data
+            ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'data'
+2024-07-09 16:19:40 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 16:19:40 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 93, in read_structured_municipality_data
+    data_dict = json.dumps(municipality_data)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type MunicipalityData is not JSON serializable
+2024-07-09 16:20:33 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 16:20:33 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 93, in read_structured_municipality_data
+    data_dict = json.loads(municipality_data)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+2024-07-09 16:25:50 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-09 16:25:50 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 93, in read_structured_municipality_data
+    data_dict = json.loads(municipality_data)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+2024-07-09 16:25:58 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 93, in read_structured_municipality_data
+    data_dict = json.loads(municipality_data)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+2024-07-09 16:28:14 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 93, in read_structured_municipality_data
+    data_dict = json.dumps(municipality_data)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type MunicipalityData is not JSON serializable
+2024-07-09 16:33:02 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 99, in read_structured_municipality_data
+    return schemas.StructuredMunicipalityData(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\fastapi_env\Lib\site-packages\pydantic\main.py", line 192, in __init__
+    self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 4 validation errors for StructuredMunicipalityData
+values.0.kpi
+  Field required [type=missing, input_value={'value': {'count': 26, '...lue': 46895.943437}]}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+values.0.year
+  Field required [type=missing, input_value={'value': {'count': 26, '...lue': 46895.943437}]}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+values.0.value
+  Input should be a valid number [type=float_type, input_value={'count': 26, 'values': [...alue': 46895.943437}]}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+values.0.metadata
+  Field required [type=missing, input_value={'value': {'count': 26, '...lue': 46895.943437}]}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+2024-07-09 16:35:22 ERROR: Error processing data for municipality 1984
+Traceback (most recent call last):
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\main.py", line 99, in read_structured_municipality_data
+    return schemas.StructuredMunicipalityData(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\Documents\Skolan\Cloud Native Computing\python_app\fastapi_env\Lib\site-packages\pydantic\main.py", line 192, in __init__
+    self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 4 validation errors for StructuredMunicipalityData
+values.0.kpi
+  Field required [type=missing, input_value={'value': {'count': 26, '...lue': 46895.943437}]}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+values.0.year
+  Field required [type=missing, input_value={'value': {'count': 26, '...lue': 46895.943437}]}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+values.0.value
+  Input should be a valid number [type=float_type, input_value={'count': 26, 'values': [...alue': 46895.943437}]}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/float_type
+values.0.metadata
+  Field required [type=missing, input_value={'value': {'count': 26, '...lue': 46895.943437}]}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+2024-07-09 16:42:33 INFO: Fetching KPIs from the database
+2024-07-09 16:42:33 INFO: Retrieved 6129 KPIs
+2024-07-09 16:52:02 INFO: Fetching KPIs from the database
+2024-07-09 16:52:02 INFO: Retrieved 6129 KPIs
+2024-07-09 16:54:34 INFO: Fetching KPIs from the database
+2024-07-09 16:54:34 INFO: Retrieved 6129 KPIs
+2024-07-09 16:55:41 INFO: Fetching KPIs from the database
+2024-07-09 16:55:41 INFO: Retrieved 6129 KPIs
+2024-07-09 16:56:23 INFO: Fetching KPIs from the database
+2024-07-09 16:56:23 INFO: Retrieved 6129 KPIs
+2024-07-10 08:05:01 INFO: Fetching KPIs from the database
+2024-07-10 08:05:01 INFO: Retrieved 6129 KPIs
+2024-07-10 08:07:25 INFO: Fetching KPIs from the database
+2024-07-10 08:07:25 INFO: Retrieved 6129 KPIs
+2024-07-10 08:08:55 INFO: Fetching KPIs from the database
+2024-07-10 08:08:56 INFO: Retrieved 6129 KPIs
+2024-07-10 08:12:22 INFO: Fetching KPIs from the database
+2024-07-10 08:12:22 INFO: Retrieved 6129 KPIs
+2024-07-10 09:44:40 INFO: Fetching KPIs from the database
+2024-07-10 09:44:40 INFO: Retrieved 6129 KPIs
+2024-07-10 09:50:07 INFO: Fetching KPIs from the database
+2024-07-10 09:50:08 INFO: Retrieved 6129 KPIs
+2024-07-10 09:51:09 INFO: Fetching KPIs from the database
+2024-07-10 09:51:09 INFO: Retrieved 6129 KPIs
+2024-07-10 09:54:21 INFO: Fetching KPIs from the database
+2024-07-10 09:54:21 INFO: Retrieved 6129 KPIs
+2024-07-10 10:02:50 INFO: Fetching KPIs from the database
+2024-07-10 10:02:50 INFO: Retrieved 6129 KPIs
+2024-07-10 10:07:40 INFO: Fetching KPIs from the database
+2024-07-10 10:07:40 INFO: Retrieved 6129 KPIs
+2024-07-10 10:10:15 INFO: Fetching KPIs from the database
+2024-07-10 10:10:15 INFO: Retrieved 6129 KPIs
+2024-07-10 10:11:07 INFO: Fetching KPIs from the database
+2024-07-10 10:11:07 INFO: Retrieved 6129 KPIs
+2024-07-10 10:13:05 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1984 "HTTP/1.1 200 OK"
+2024-07-10 10:13:14 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/0381 "HTTP/1.1 200 OK"
+2024-07-10 10:13:22 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1499 "HTTP/1.1 200 OK"
+2024-07-10 10:13:51 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/2425 "HTTP/1.1 200 OK"
+2024-07-10 10:13:52 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1880 "HTTP/1.1 200 OK"
+2024-07-10 10:21:53 INFO: Fetching KPIs from the database
+2024-07-10 10:21:53 INFO: Retrieved 6129 KPIs
+2024-07-10 10:22:04 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1480 "HTTP/1.1 200 OK"
+2024-07-10 10:22:06 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/2521 "HTTP/1.1 200 OK"
+2024-07-10 10:23:19 INFO: Fetching KPIs from the database
+2024-07-10 10:23:19 INFO: Retrieved 6129 KPIs
+2024-07-10 10:23:26 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/2510 "HTTP/1.1 200 OK"
+2024-07-10 10:26:34 INFO: Fetching KPIs from the database
+2024-07-10 10:26:34 INFO: Retrieved 6129 KPIs
+2024-07-10 10:27:57 INFO: Fetching KPIs from the database
+2024-07-10 10:27:57 INFO: Retrieved 6129 KPIs
+2024-07-10 10:28:05 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/2518 "HTTP/1.1 200 OK"
+2024-07-10 10:29:02 INFO: Fetching KPIs from the database
+2024-07-10 10:29:02 INFO: Retrieved 6129 KPIs
+2024-07-10 10:29:08 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/2584 "HTTP/1.1 200 OK"
+2024-07-10 10:30:01 INFO: Fetching KPIs from the database
+2024-07-10 10:30:01 INFO: Retrieved 6129 KPIs
+2024-07-10 10:31:08 INFO: Fetching KPIs from the database
+2024-07-10 10:31:08 INFO: Retrieved 6129 KPIs
+2024-07-10 10:31:14 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1280 "HTTP/1.1 200 OK"
+2024-07-10 10:32:03 INFO: Fetching KPIs from the database
+2024-07-10 10:32:03 INFO: Retrieved 6129 KPIs
+2024-07-10 10:32:08 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1286 "HTTP/1.1 200 OK"
+2024-07-10 10:32:47 INFO: Fetching KPIs from the database
+2024-07-10 10:32:47 INFO: Retrieved 6129 KPIs
+2024-07-10 10:32:55 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1272 "HTTP/1.1 200 OK"
+2024-07-10 10:35:32 INFO: Fetching KPIs from the database
+2024-07-10 10:35:32 INFO: Retrieved 6129 KPIs
+2024-07-10 10:35:37 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/0861 "HTTP/1.1 200 OK"
+2024-07-10 10:38:06 INFO: Fetching KPIs from the database
+2024-07-10 10:38:06 INFO: Retrieved 6129 KPIs
+2024-07-10 10:38:12 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/0880 "HTTP/1.1 200 OK"
+2024-07-10 10:38:16 INFO: Fetching KPIs from the database
+2024-07-10 10:38:16 INFO: Retrieved 6129 KPIs
+2024-07-10 10:40:10 INFO: Fetching KPIs from the database
+2024-07-10 10:40:10 INFO: Retrieved 6129 KPIs
+2024-07-10 10:40:26 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/0881 "HTTP/1.1 200 OK"
+2024-07-10 10:40:35 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1439 "HTTP/1.1 200 OK"
+2024-07-10 10:44:05 INFO: Fetching KPIs from the database
+2024-07-10 10:44:05 INFO: Retrieved 6129 KPIs
+2024-07-10 10:44:21 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00009/municipality/1480 "HTTP/1.1 200 OK"
+2024-07-10 10:44:22 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00009/municipality/0880 "HTTP/1.1 200 OK"
+2024-07-10 10:57:46 INFO: Fetching KPIs from the database
+2024-07-10 10:57:46 INFO: Retrieved 6129 KPIs
+2024-07-10 10:58:14 INFO: Fetching KPIs from the database
+2024-07-10 10:58:14 INFO: Retrieved 6129 KPIs
+2024-07-10 10:58:30 INFO: Fetching KPIs from the database
+2024-07-10 10:58:31 INFO: Retrieved 6129 KPIs
+2024-07-10 10:58:37 INFO: Fetching KPIs from the database
+2024-07-10 10:58:37 INFO: Retrieved 6129 KPIs
+2024-07-10 10:59:30 INFO: Fetching KPIs from the database
+2024-07-10 10:59:31 INFO: Retrieved 6129 KPIs
+2024-07-10 11:00:47 INFO: Fetching KPIs from the database
+2024-07-10 11:00:47 INFO: Retrieved 6129 KPIs
+2024-07-10 11:00:55 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1471 "HTTP/1.1 200 OK"
+2024-07-10 11:01:51 INFO: Fetching KPIs from the database
+2024-07-10 11:01:51 INFO: Retrieved 6129 KPIs
+2024-07-10 11:02:28 INFO: Fetching KPIs from the database
+2024-07-10 11:02:28 INFO: Retrieved 6129 KPIs
+2024-07-10 11:02:34 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1737 "HTTP/1.1 200 OK"
+2024-07-10 11:02:41 INFO: Fetching KPIs from the database
+2024-07-10 11:02:41 INFO: Retrieved 6129 KPIs
+2024-07-10 11:02:47 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1491 "HTTP/1.1 200 OK"
+2024-07-10 11:04:16 INFO: Fetching KPIs from the database
+2024-07-10 11:04:16 INFO: Retrieved 6129 KPIs
+2024-07-10 11:04:26 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1784 "HTTP/1.1 200 OK"
+2024-07-10 11:04:41 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/2505 "HTTP/1.1 200 OK"
+2024-07-10 11:05:21 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N18040/municipality/1980 "HTTP/1.1 200 OK"
+2024-07-10 11:05:23 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N18040/municipality/1880 "HTTP/1.1 200 OK"
+2024-07-10 11:06:23 INFO: Fetching KPIs from the database
+2024-07-10 11:06:23 INFO: Retrieved 6129 KPIs
+2024-07-10 11:06:30 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1881 "HTTP/1.1 200 OK"
+2024-07-10 11:06:54 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N07937/municipality/1881 "HTTP/1.1 200 OK"
+2024-07-10 11:08:04 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N07937/municipality/1861 "HTTP/1.1 200 OK"
+2024-07-10 11:08:04 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N07937/municipality/0642 "HTTP/1.1 200 OK"
+2024-07-10 11:08:17 INFO: Fetching KPIs from the database
+2024-07-10 11:08:17 INFO: Retrieved 6129 KPIs
+2024-07-10 11:08:32 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00082/municipality/1880 "HTTP/1.1 200 OK"
+2024-07-10 11:09:04 INFO: Fetching KPIs from the database
+2024-07-10 11:09:04 INFO: Retrieved 6129 KPIs
+2024-07-10 11:10:56 INFO: Fetching KPIs from the database
+2024-07-10 11:10:56 INFO: Retrieved 6129 KPIs
+2024-07-10 11:10:58 INFO: Fetching KPIs from the database
+2024-07-10 11:10:58 INFO: Retrieved 6129 KPIs
+2024-07-10 11:11:07 INFO: Fetching KPIs from the database
+2024-07-10 11:11:07 INFO: Retrieved 6129 KPIs
+2024-07-10 11:12:35 INFO: Fetching KPIs from the database
+2024-07-10 11:12:35 INFO: Retrieved 6129 KPIs
+2024-07-10 11:13:09 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00334/municipality/0024 "HTTP/1.1 200 OK"
+2024-07-10 11:13:10 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00334/municipality/0018 "HTTP/1.1 200 OK"
+2024-07-10 11:13:32 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00335/municipality/0024 "HTTP/1.1 200 OK"
+2024-07-10 11:13:33 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00335/municipality/0018 "HTTP/1.1 200 OK"
+2024-07-10 11:13:58 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1882 "HTTP/1.1 200 OK"
+2024-07-10 11:13:59 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1861 "HTTP/1.1 200 OK"
+2024-07-10 11:14:00 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/1860 "HTTP/1.1 200 OK"
+2024-07-10 11:16:23 INFO: Fetching KPIs from the database
+2024-07-10 11:16:23 INFO: Retrieved 6129 KPIs
+2024-07-10 11:16:37 INFO: Fetching KPIs from the database
+2024-07-10 11:16:37 INFO: Retrieved 6129 KPIs
+2024-07-10 11:16:51 INFO: Fetching KPIs from the database
+2024-07-10 11:16:51 INFO: Retrieved 6129 KPIs
+2024-07-10 11:17:37 INFO: Fetching KPIs from the database
+2024-07-10 11:17:37 INFO: Retrieved 6129 KPIs
+2024-07-10 11:18:07 INFO: Fetching KPIs from the database
+2024-07-10 11:18:07 INFO: Retrieved 6129 KPIs
+2024-07-10 11:18:44 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/0781 "HTTP/1.1 200 OK"
+2024-07-10 11:18:45 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/0563 "HTTP/1.1 200 OK"
+2024-07-10 11:18:45 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/0883 "HTTP/1.1 200 OK"

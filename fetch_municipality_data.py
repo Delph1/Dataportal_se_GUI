@@ -1,41 +1,40 @@
 import asyncio
 import httpx
-from sqlalchemy.orm import Session
 from database import SessionLocal, engine
 import models
-from typing import List
 import json
 
 models.Base.metadata.create_all(bind=engine)
 
-KPI = "N18027"  # Define the KPI as a constant
-
-async def fetch_municipality_data(client: httpx.AsyncClient, municipality_id: str) -> dict:
-    url = f"https://api.kolada.se/v2/data/kpi/{KPI}/municipality/{municipality_id}"
+async def fetch_single_municipality_data(client: httpx.AsyncClient, kpi_id: str, municipality_id: str) -> dict:
+    url = f"https://api.kolada.se/v2/data/kpi/{kpi_id}/municipality/{municipality_id}"
     response = await client.get(url)
     return response.json()
 
-async def fetch_all_municipality_data():
+async def fetch_all_municipality_data(kpi_id: str, municipality_ids: str):
     db = SessionLocal()
     try:
-        municipalities = db.query(models.Municipality).all()
+        # Fetch all municipalities for the given KPI
+        municipalities = municipality_ids
         async with httpx.AsyncClient() as client:
             for municipality in municipalities:
-                print(f"Fetching data for municipality: {municipality.municipality_name}")
-                data = await fetch_municipality_data(client, municipality.municipality_id)
+                print(f"Fetching data for KPI: {kpi_id}, Municipality: {municipality}")
+                data = await fetch_single_municipality_data(client, kpi_id, municipality)
                 db_item = models.MunicipalityData(
-                    municipality_id=municipality.municipality_id,
-                    data=json.dumps(data)  # Store the entire response as JSON
+                    municipality_id=municipality,
+                    kpi_id=kpi_id,
+                    year=data["year"],
+                    value=data["value"],
+                    data=json.dumps(data)
                 )
                 db.add(db_item)
                 db.commit()
-                print(f"Data stored for municipality: {municipality.municipality_name}")
+                print(f"Data stored for KPI: {kpi_id}, Municipality: {municipality}")
+    except Exception as e:
+        db.rollback()
+        print(f"Error fetching and saving municipality data: {e}")
     finally:
         db.close()
 
-async def main():
-    await fetch_all_municipality_data()
-    print("All municipality data has been fetched and stored in the database.")
-
 if __name__ == "__main__":
-    asyncio.run(main())
+    asyncio.run(fetch_all_municipality_data("N18027"))  # Example KPI ID

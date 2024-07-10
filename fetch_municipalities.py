@@ -1,5 +1,4 @@
 import httpx
-from sqlalchemy.orm import Session
 from database import SessionLocal, engine
 import models
 import asyncio

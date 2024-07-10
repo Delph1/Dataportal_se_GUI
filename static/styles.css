@@ -23,6 +23,18 @@ select {
     margin-bottom: 20px;
 }
 
+.selection-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: flex-start;
+    gap: 10px;
+}
+  
+.selection-container select {
+    width: 100%;
+  }
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -45,11 +57,6 @@ th {
     margin: 20px auto;
 }
 
-.selection-container {
-    display: flex;
-    margin-bottom: 20px;
-    align-items: flex-start;
-}
 
 #municipalitySelect {
     flex-grow: 1;
