@@ -914,3 +914,7 @@ values.0.metadata
 2024-07-10 11:18:44 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/0781 "HTTP/1.1 200 OK"
 2024-07-10 11:18:45 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/0563 "HTTP/1.1 200 OK"
 2024-07-10 11:18:45 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/0883 "HTTP/1.1 200 OK"
+2024-07-10 11:25:04 INFO: Fetching KPIs from the database
+2024-07-10 11:25:04 INFO: Retrieved 6129 KPIs
+2024-07-10 11:25:12 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/2080 "HTTP/1.1 200 OK"
+2024-07-10 11:25:12 INFO: HTTP Request: GET https://api.kolada.se/v2/data/kpi/N00003/municipality/2029 "HTTP/1.1 200 OK"
