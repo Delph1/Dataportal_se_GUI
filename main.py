@@ -30,35 +30,17 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+''' Main page '''
 @app.get("/", response_class=HTMLResponse)
 async def root(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
+''' Gets a list of municipalities from the database '''
 @app.get("/municipalities/", response_model=List[schemas.Municipality])
 def read_municipalities(db: Session = Depends(get_db)):
     return db.query(models.Municipality).all()
 
-@app.post("/users/", response_model=schemas.User)
-def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
-    db_user = models.User(username=user.username, email=user.email, hashed_password=user.password) 
-    db.add(db_user)
-    db.commit()
-    db.refresh(db_user)
-    return db_user
-
-@app.get("/users/{user_id}", response_model=schemas.User)
-def read_user(user_id: int, db: Session = Depends(get_db)):
-    db_user = db.query(models.User).filter(models.User.id == user_id).first()
-    if db_user is None:
-        raise HTTPException(status_code=404, detail="User not found")
-    return db_user
-
-@app.get("/fetch-kolada-data")
-async def fetch_kolada_data():
-    async with httpx.AsyncClient() as client:
-        response = await client.get("https://api.kolada.se/v2/kpi/N18027")
-    return response.json()
-
+''' Node to view the data "as is" for a specific municipality and KPI '''
 @app.get("/municipality_data/{municipality_id}", response_model=schemas.MunicipalityData)
 def read_municipality_data(municipality_id: str, kpi_id: int = 1, db: Session = Depends(get_db)):
     data = db.query(models.MunicipalityData).filter(
@@ -73,6 +55,7 @@ def read_municipality_data(municipality_id: str, kpi_id: int = 1, db: Session = 
     
     return data
 
+''' Gets the data for a specific municipality and KPI from the database '''
 @app.get("/structured_municipality_data/{municipality_id}", response_model=schemas.StructuredMunicipalityData)
 def read_structured_municipality_data(municipality_id: str, kpi_id: str, db: Session = Depends(get_db)):
     try:
@@ -117,17 +100,7 @@ def read_structured_municipality_data(municipality_id: str, kpi_id: str, db: Ses
         logger.exception(f"Error processing data for municipality {municipality_id}")
         raise HTTPException(status_code=500, detail=str(e))
     
-@app.get("/kpis/", response_model=List[schemas.KPI])
-def read_kpis(db: Session = Depends(get_db)):
-    try:
-        logger.info("Fetching KPIs from the database")
-        kpis = db.query(models.KPI).all()
-        logger.info(f"Retrieved {len(kpis)} KPIs")
-        return kpis
-    except Exception as e:
-        logger.error("Error fetching KPIs:", exc_info=True)
-        raise HTTPException(status_code=500, detail="Error fetching KPIs")
-    
+''' Downloads data from the dataportal.se API a.k.a. kolada.se '''
 @app.get("/fetch_municipality_data")
 async def fetch_municipality_data(kpi_id: str, municipality_id: str, db: Session = Depends(get_db)):
     try:
@@ -153,6 +126,7 @@ async def fetch_municipality_data(kpi_id: str, municipality_id: str, db: Session
     finally:
         db.close()
 
+''' Simple function to check if a datapost already exists so we don't need to download it again '''
 def data_exists_in_database(db: Session, kpi_id: str, municipality_id: str) -> bool:
     existing_data = db.query(models.MunicipalityData) \
                       .filter(models.MunicipalityData.kpi_id == kpi_id,
@@ -163,3 +137,32 @@ def data_exists_in_database(db: Session, kpi_id: str, municipality_id: str) -> b
         return False
     else:
         return True
+
+''' Gets a list of KPIs and their metadata from the database '''
+@app.get("/kpis/", response_model=List[schemas.KPI])
+def read_kpis(db: Session = Depends(get_db)):
+    try:
+        logger.info("Fetching KPIs from the database")
+        kpis = db.query(models.KPI).all()
+        logger.info(f"Retrieved {len(kpis)} KPIs")
+        return kpis
+    except Exception as e:
+        logger.error("Error fetching KPIs:", exc_info=True)
+        raise HTTPException(status_code=500, detail="Error fetching KPIs")
+
+''' users currently not implemented '''
+@app.post("/users/", response_model=schemas.User)
+def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
+    db_user = models.User(username=user.username, email=user.email, hashed_password=user.password) 
+    db.add(db_user)
+    db.commit()
+    db.refresh(db_user)
+    return db_user
+
+@app.get("/users/{user_id}", response_model=schemas.User)
+def read_user(user_id: int, db: Session = Depends(get_db)):
+    db_user = db.query(models.User).filter(models.User.id == user_id).first()
+    if db_user is None:
+        raise HTTPException(status_code=404, detail="User not found")
+    return db_user
+
