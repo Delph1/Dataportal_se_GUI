@@ -2,7 +2,24 @@ version: '3.4'
 
 services:
   pythonapp:
-    image: pythonapp
+    image: git.systementor.se/242galistel.andreas/python_app
+    ports:
+      - "8088:80" 
+    environment:
+      - DB_HOST=mysqlserver1
+      - DB_USER=dpguser
+      - DB_PASSWORD=yKgdPMhEmZ8U
+      - DB_NAME=dataportalgui
+      - DB_PORT=3306
     build:
       context: .
       dockerfile: ./Dockerfile
+  mysqlserver1:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: hejsan123
+      MYSQL_DATABASE: dataportalgui
+      MYSQL_USER: dpguser
+      MYSQL_PASSWORD: yKgdPMhEmZ8U
+    ports:
+      - "3306:3306"
