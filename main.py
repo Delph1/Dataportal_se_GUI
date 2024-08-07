@@ -33,27 +33,12 @@ logger = logging.getLogger(__name__)
 ''' Main page '''
 @app.get("/", response_class=HTMLResponse)
 async def root(request: Request):
-    return templates.TemplateResponse("index.html", {"request": request})
+    return templates.TemplateResponse(request, "index.html")
 
 ''' Gets a list of municipalities from the database '''
 @app.get("/municipalities/", response_model=List[schemas.Municipality])
 def read_municipalities(db: Session = Depends(get_db)):
     return db.query(models.Municipality).all()
-
-''' Node to view the data "as is" for a specific municipality and KPI '''
-@app.get("/municipality_data/{municipality_id}", response_model=schemas.MunicipalityData)
-def read_municipality_data(municipality_id: str, kpi_id: int = 1, db: Session = Depends(get_db)):
-    data = db.query(models.MunicipalityData).filter(
-        models.MunicipalityData.municipality_id == municipality_id,
-        models.MunicipalityData.kpi_id == kpi_id
-    ).all()
-    if not data:
-        raise HTTPException(status_code=404, detail="Municipality data not found")
-    
-    # Parse the JSON string back into a Python object
-    data.data = json.loads(data.data)
-    
-    return data
 
 ''' Gets the data for a specific municipality and KPI from the database '''
 @app.get("/structured_municipality_data/{municipality_id}", response_model=schemas.StructuredMunicipalityData)

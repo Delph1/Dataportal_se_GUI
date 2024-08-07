@@ -1,0 +1,27 @@
+version: 0.2
+
+# env:
+#   shell: shell-tag
+#   variables:
+#     key: "value"
+#     key: "value"
+#   parameter-store:
+#     key: "value"
+#     key: "value"
+#   exported-variables:
+#     - variable
+#     - variable
+#   secrets-manager:
+#     key: secret-id:json-key:version-stage:version-id
+#   git-credential-helper: no | yes
+
+
+phases:
+  install:
+    commands:
+  build:
+    commands:
+      - pytest tests.py
+      - docker build -t git.systementor.se/242galistel.andreas/python_app .
+      - docker login -u 242galistel.andreas -p yacloud1 https://git.systementor.se
+      - docker push git.systementor.se/242galistel.andreas/python_app 
