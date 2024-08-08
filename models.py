@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, ForeignKey, JSON, Boolean
-from sqlalchemy.dialects.mysql import LONGTEXT
+from sqlalchemy.dialects.mysql import TEXT
 from sqlalchemy.orm import relationship
 from database import Base
 
@@ -25,7 +25,7 @@ class KPI(Base):
     id = Column(Integer, primary_key=True, autoincrement=True, index=True)
     kpi_id = Column(String(10), unique=True, index=True)
     name = Column(String(255))
-    description = Column(LONGTEXT)
+    description = Column(TEXT)
     auspices = Column(String(255))
     has_ou_data = Column(Boolean)
     is_divided_by_gender = Column(Integer)
