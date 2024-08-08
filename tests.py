@@ -7,15 +7,17 @@ from fastapi.testclient import TestClient
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
+from main import app
+from database import get_db
 from fetch_municipalities import fetch_municipalities
 
 #Setting up test client
 
-
+client = TestClient(app)
 
 # SQLAlchemy setup for testing
-SQLALCHEMY_DATABASE_URL = "sqlite:///./test.db"
-engine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={"check_same_thread": False})
+DB_URL = "sqlite:///./test.db"
+engine = create_engine(DB_URL, connect_args={"check_same_thread": False})
 TestingSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
 
@@ -29,10 +31,6 @@ def override_get_db():
         yield db
     finally:
         db.close()
-
-from main import app, get_db
-
-client = TestClient(app)
 
 app.dependency_overrides[get_db] = override_get_db
 
