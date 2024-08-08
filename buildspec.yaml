@@ -21,9 +21,14 @@ phases:
     runtime-versions:
       python: 3.11
     commands:
-      - pip3 install pytest fastapi httpx sqlalchemy dotenv
+      - python3 -m venv /root/venv
+      - . /root/venv/bin/activate
+      - pip3 install pytest
+      - pip3 install -r requirements.txt
   build:
+    on-failure: ABORT 
     commands:
+      - echo Running tests
       - python -m pytest tests.py
       - docker build -t git.systementor.se/242galistel.andreas/python_app .
       - docker login -u 242galistel.andreas -p yacloud1 https://git.systementor.se
