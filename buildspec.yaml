@@ -21,7 +21,7 @@ phases:
     runtime-versions:
       python: 3.11
     commands:
-      - pip3 install pytest fastapi httpx
+      - pip3 install pytest fastapi httpx sqlachemy
   build:
     commands:
       - python -m pytest tests.py
