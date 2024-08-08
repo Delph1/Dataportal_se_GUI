@@ -15,14 +15,12 @@ from fetch_municipalities import fetch_municipalities
 
 client = TestClient(app)
 
+
 # SQLAlchemy setup for testing
 DB_URL = "sqlite:///./test.db"
 engine = create_engine(DB_URL, connect_args={"check_same_thread": False})
-TestingSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
-
-# Create all tables in the test database
-Base.metadata.create_all(bind=engine)
+TestingSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 # Dependency override
 def override_get_db():
@@ -33,6 +31,9 @@ def override_get_db():
         db.close()
 
 app.dependency_overrides[get_db] = override_get_db
+
+# Create all tables in the test database
+Base.metadata.create_all(bind=engine)
 
 # Main.py tests below this line
 
