@@ -21,7 +21,7 @@ phases:
     runtime-versions:
       python: 3.11
     commands:
-      - pip3 install pytest sqlalchemy
+      - pip3 install pytest sqlalchemy dotenv
   build:
     commands:
       - python -m pytest tests.py
