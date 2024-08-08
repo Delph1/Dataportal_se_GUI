@@ -1,32 +1,15 @@
-import os
-import json
 import pytest
 import subprocess
-import models
 
 from unittest import mock
-from sqlalchemy.orm import sessionmaker, Session
-from sqlalchemy import create_engine
 from fastapi.testclient import TestClient
 
-from database import get_db, DB_URL, engine, Base
 from main import app
-from fetch_municipalities import fetch_municipalities, store_municipalities, main
-from populate_kpis import fetch_kpis, populate_kpis
+from fetch_municipalities import fetch_municipalities
 
 #Setting up test client
 
 client = TestClient(app)
-TestingSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
-Base.metadata.create_all(bind=engine)
-def override_get_db():
-    try:
-        db = TestingSessionLocal()
-        yield db
-    finally:
-        db.close()
-
-app.dependency_overrides[get_db] = override_get_db
 
 # Main.py tests below this line
 
@@ -37,15 +20,12 @@ def test_read_main():
 
 ''' Test read municipalities '''
 def test_read_municipalities():
-    db = next(override_get_db())
-    db.query(models.Municipality).filter(models.Municipality.id == "1").all()
     
     response = client.get("/municipalities/")
     assert response.status_code == 200
 
 ''' Test read structured municipality data '''
 def test_read_structured_municipality_data():
-    db = next(override_get_db())   
     response = client.get("/structured_municipality_data/1984?kpi_id=N00003")
     assert response.status_code == 200
 
