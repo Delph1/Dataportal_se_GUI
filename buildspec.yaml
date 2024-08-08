@@ -18,10 +18,13 @@ version: 0.2
 
 phases:
   install:
+    runtime-versions:
+      python: 3.11
     commands:
+      - pip3 install pytest
   build:
     commands:
-      - pytest tests.py --disable-warnings
+      - python -m pytest tests.py
       - docker build -t git.systementor.se/242galistel.andreas/python_app .
       - docker login -u 242galistel.andreas -p yacloud1 https://git.systementor.se
       - docker push git.systementor.se/242galistel.andreas/python_app
