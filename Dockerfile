@@ -8,5 +8,7 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
 COPY . /code/app
 
+EXPOSE 80
+
 # If running behind a proxy like Nginx or Traefik add --proxy-headers
 CMD ["fastapi", "run", "/code/app/main.py", "--port", "80", "--proxy-headers"]
