@@ -18,7 +18,7 @@ docker compose up
 
 ## Setup process
 
-Start by migrating using alembic:
+Go into the container (perhaps easiest via the Docker application) and start by migrating using alembic:
 
 ```
 alembic upgrade head
