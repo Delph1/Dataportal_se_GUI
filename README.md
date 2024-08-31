@@ -12,7 +12,9 @@ The app is written in Python using the FastAPI framework with some light JavaScr
 
 The repository contains the Docker and Docker compose files needed to run it locally or in the cloud, according to your preference.
 
-
+```
+docker compose up
+```
 
 ## Setup process
 
